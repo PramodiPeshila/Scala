@@ -7,6 +7,8 @@ def volume(r:Double)=Math.PI*4/3*r*r*r
 
 def cost()=24.95*60/100 + 3 + 0.75*10
 
-def time()=8*2 + 3*7 + 2*8
+def easy(x:Int):Int=x*8
+def tempo(x:Int):Int=x*7
+
 
 
