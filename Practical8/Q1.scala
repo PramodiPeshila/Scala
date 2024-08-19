@@ -9,10 +9,11 @@ object  Caesar{
     }
 
     def main(args: Array[String]): Unit={
-        val text = "Hello Scala"
+        print("Enter a String: ")
+        val text = scala.io.StdIn.readLine()
         println(s"Original Text : ${text}")
-        val encrypted_text = encrypt(text , 1) 
+        val encrypted_text = encrypt(text , 2) 
         println(s"Encrypted Text : ${encrypted_text}")
-        println(s"Decrypted Text : ${decrypt(encrypted_text , 1)}")
+        println(s"Decrypted Text : ${decrypt(encrypted_text , 2)}")
     }
 }
